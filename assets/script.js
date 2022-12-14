@@ -1,26 +1,8 @@
 // Disaplay the current day and time
 
-
-// function displayTime(){
-//     var timeStamp = moment().format('LLL');
-//     $('#currentDay').text(timeStamp);
-// 
 var timeStamp = dayjs().format('DD MMM, YYYY [at] hh:mm:ss a');
 $('#currentDay').text(timeStamp);
-// var todayDate = moment().format('DD MMM, YYYY [at] hh:mm:ss a')
-// $("#currentDay").html(todayDate);
 
-// var now = moment().format("dddd, MMMM Do, YYYY, h:mm:ss A");
-// $('#currentDay').append(now);
-
-// var currentDayEl = moment();
-// $("#currentDay").text(currentDayEl.format("dddd, MMM Do"));
-// var timeDisplayEl = $('#currentDay');
-
-// function displayTime() {
-//     var rightNow = dayjs().format('MMM DD, YYYY [at] hh:mm:ss a');
-//     timeDisplayEl.text(rightNow);
-//   }
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
